@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+/* start common css  */
+body {
+    font-family: "Manrope";
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 800px;
+    color: #1C1C1C;
+}
+h2 {
+    font-size: 45px;
+}
+h5 {
+    font-size: 20px;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+p {
+    font-size: 16px;
+    font-weight: 500px;
+    line-height: 24px;
+    color:#777777;
+}
+
+/* start header css */
+header {
+    margin-bottom: 80px;
+}
+.text-img {
+    position: relative;
+}
+.text-img .text p {
+    font-size: 18px;
+    width: 450px;
+}
+.text h1 {
+    font-size: 80px;
+    line-height: 100px;
+}
+.text button a {
+    color: #fff;
+}
+.text button {
+    border: none;
+    border-radius: 5px;
+    padding: 18px 20px;
+    color: #fff;
+    background-image:linear-gradient(270.00deg, rgb(255, 0, 0)0%,rgb(255, 137, 56)100%);
+}
+.box-img {
+    position:relative;
+} 
+.img img {
+   max-width: 618px; 
+}
+.box {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 90px;
+    bottom:-6px;
+    padding: 19px 26px 18px 27px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    box-shadow: 0 7px 50px rgba(0, 0, 0, 0.06);
+}
+.box i {
+    font-size: 35px;
+    padding-right: 10px;
+    color: #FFF082;
+}
+.box strong {
+    display: block;
+    font-size: 30px;
+}
+/* start Products section css */
+.products {
+    margin-bottom: 100px;
+}
+.products-tex {
+    text-align: center;
+    padding: 0 50px;
+    margin: 0 auto;
+}
+.products-img ul {
+    width: calc(25% - 18px);
+    text-align: center;
+    border-radius: 10px;
+    padding: 25px 0;
+    background-image: linear-gradient(90deg, rgb(244, 244, 244)100%,rgb(244, 244, 244)0%);
+}
+.products-img ul strong {
+    font-size: 25px;
+}
+.products-img ul p {
+    margin: 0 auto;
+    width: 200px;
+}
+/* start Presented section css  */
+.Presented {
+    margin-bottom: 100px;
+}
+.presented-img {
+    text-align: center;
+}
+.fast-arey {
+    border-radius: 10px;
+    padding: 30px 0;
+    background-color: rgba(88, 118, 57, 0.10);
+}
+.box-1 {
+    border-radius: 10px;
+    height: 136px;
+    margin-bottom: 25px;
+    background-image: linear-gradient(90deg, rgba(255, 0, 0, 0.3)0%,rgba(255, 136, 56, 0.3)100%);
+}
+.second-arey {
+    border-radius: 10px;
+    padding: 30px 0;
+    background-color: rgba(230, 165, 35, 0.10);
+}
+.box-2 {
+    border-radius: 10px;
+    height: 143px;
+    margin-top: 25px;
+    background-image: linear-gradient(90deg, rgb(217, 217, 217)0%,rgb(255, 255, 255)100%);
+}
+.presented-tex h2 {
+    margin-bottom: 20px;
+}
+.presented-tex p {
+    line-height: 26px;
+}
+.presented-tex h5 {
+    font-size: 20px;
+    margin-bottom: 9px;
+}
+.presented-tex .width {
+    width: 458px;
+}
+/* start Meet Our Super Clients section css*/
+.some-text-and-banner {
+    margin-bottom: 100px;
+}
+.some-text-and-banner .container {
+    border-radius: 10px;
+    background-image: linear-gradient(360deg, rgb(255, 0, 0)0%,rgb(255, 137, 56)100%); 
+    z-index: 2;
+}
+.banner {
+    position: relative;
+}
+.banner-one {
+    position: absolute;
+    top: 50px;
+    right: 40px;
+    opacity: 0.5;
+    z-index: 1;
+    background-color:rgba(210, 44, 52, 0.5);
+}
+.banner-tow {
+    position: absolute;
+    top: 315px;
+    right: 40px; 
+    opacity: 0.5;
+    z-index: 1;
+}
+.banner-three {
+    position: absolute;
+    top: 180px; 
+    border-radius: 8px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
+    z-index: 3;
+}
+.some-text {
+    margin: 125px 30px 125px 65px;
+}
+.some-text h2 {
+    color: #fff;
+}
+.some-text p {
+    color: #fff;
+    margin: 20px 0 30px;
+}
+.some-text button {
+    border: none;
+    color: red;
+    font-size: 20px;
+    border-radius: 8px;
+    padding: 14px 28px;
+}
+.some-banner {
+    position: relative;
+    width: 433px;
+    border-radius: 8px;
+    background-color: #fff;
+    padding-top: 50px;
+}
+.some-banner .fast-img {
+    position: absolute;
+    left: -20px;
+    top: -20px;
+    border: 7px solid #fff;
+    border-radius: 50%;
+}
+.some-banner p {
+    width: 341px;
+    margin: 0 auto; 
+    padding-bottom: 20px;   
+}
+.some-banner strong {
+    margin-left: 45px;
+}
+.some-banner .last-img {
+    display: block;
+    margin:-20px 20px 0 auto;
+    padding-bottom: 20px;
+}
+/* start News & Events section css */
+.news {
+    margin-bottom: 100px;
+}
+.news-header {
+    padding: 0 50px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.full-areay {
+    border: 1px solid #777777;
+    border-radius: 10px;
+    padding: 20px 22px;
+}
+.full-areay p {
+    padding: 10px 0;
+}
+.full-areay h5 {
+    width: 205px;
+}
+/* start footer section css */
+.last-section {
+    background-image: linear-gradient(300deg, rgba(255, 0, 0, 0.10),rgba(255, 136, 56, 0.20));
+}
+.last-section .container {
+    padding: 50px 0;
+}
+.fast-lain {
+    margin-bottom: 20px;
+}
+.last-section .container button {
+    font-size: 20px;
+    color: #fff;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 8px;
+    background-image: linear-gradient(360deg, #ff0000, #FF8938);
+}
+.last-list h6 {
+    width: 200px;
+    font-size: 24px;
+}
+.last-list hr {
+    transform: scaleY(3);
+}
+.col-xl-1 {
+    position: relative;
+}
+.last-list .font-icon {
+    position: absolute;
+    bottom: 84px;
+    left: -9px;
+}
+.last-list .font-icon i {
+    padding: 7px 10px;
+    border-radius: 50%;
+    color: #fff;
+    background-image: linear-gradient(360deg, #ff0000, #FF8938);
+}
+.last-list .three-icon i {
+    font-size: 20px;
+    margin-top: 30px;
+    padding-right: 20px;
+}
+.last-text-paragraf {
+    padding-top: 20px;
+    width: 297px;
+    margin: 0 auto;
+}
+/* Alhamdulillah that all for project */
